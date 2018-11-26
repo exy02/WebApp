@@ -1,0 +1,81 @@
+body {
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+/* Side-spacing for mobile*/
+.header,
+.marketing,
+.footer {
+  padding-right: 15px;
+  padding-left: 15px;
+}
+
+.header {
+  padding-bottom: 20px;
+  border-bottom: 1px solid #e5e5e5;
+}
+/* Meaks webapp heading equal height of navigation */
+.header h3 {
+  margin-top: 0;
+  margin-bottom: 0;
+  line-height: 40px;
+}
+
+/* Custom container size*/
+@media (min-width: 768px) {
+  .container {
+    max-width: 730px;
+  }
+}
+.container-narrow > hr {
+  margin: 30px 0;
+}
+
+/* Center jumbotron message and signup button */
+.jumbotron {
+  text-align: center;
+  border-bottom: 1px solid #e5e5e5;
+}
+.jumbotron a{
+  margin-top: 30px;
+}
+.jumbotron .btn {
+  padding: 15px 25px;
+  font-size: 21px;
+}
+
+/* Webapp marketing lists */
+.appDetails {
+  margin: 45px 0;
+}
+.appDetails p + h4 {
+  margin-top: 30px;
+}
+
+/* Responsive: Portrait tablets and up */
+@media screen and (min-width: 768px) {
+  .header,
+  .marketing,
+  .footer {
+    padding-right: 0;
+    padding-left: 0;
+  }
+  .header {
+    margin-bottom: 32px;
+  }
+  .jumbotron {
+    border-bottom: 0;
+  }
+}
+
+.signupUserExists{
+  color: red;
+}
+
+/* Custom page footer */
+.footer {
+  padding-top: 22px;
+  color: grey;
+  border-top: 1px solid #e5e5e5;
+}
