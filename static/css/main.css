@@ -81,6 +81,6 @@ html,body {
   padding: 20px;
   color: grey;
   border-top: 1px solid #e5e5e5;
-  width: 700px;
+  width: inherit;
   margin: 0px auto;
 }
