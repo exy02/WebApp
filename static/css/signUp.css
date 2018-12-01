@@ -28,3 +28,9 @@ button{
   margin-top: 50px;
   margin-bottom: 20px;
 }
+
+#successAlert, #errorAlert{
+  margin-top: 30px;
+  max-width: 360px;
+  margin: 20px auto;
+}
