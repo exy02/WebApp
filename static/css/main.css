@@ -5,7 +5,7 @@ html,body {
 }
 .container{
   min-height: 100%;
-  margin-bottom: -20px;
+  margin-bottom: -30px;
 }
 /* Side-spacing for mobile*/
 .header, .marketing, .footer {
@@ -77,10 +77,11 @@ html,body {
 
 /* Custom page footer */
 .footer {
-  height: 20px;
+  height: 40px;
   padding: 20px;
   color: grey;
   border-top: 1px solid #e5e5e5;
   width: inherit;
   margin: 0px auto;
+  margin-top: 20px;
 }
