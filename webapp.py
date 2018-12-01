@@ -13,6 +13,7 @@ app.config['MYSQL_DATABASE_PASSWORD'] = 'ohgodwhyisthis!'
 app.config['MYSQL_DATABASE_DB'] = 'milestone'
 app.config['MYSQL_DATABASE_HOST'] = 'localhost'
 mysql.init_app(app)
+# ==============================================================================
 
 @app.route("/")
 def main():
@@ -22,6 +23,8 @@ def main():
 def showSignUp():
     return render_template("signUp.html")
 
+# ==============================================================================
+# SIGN UP
 @app.route('/signUp',methods=['POST','GET'])
 def signUp():
     try:
@@ -54,6 +57,9 @@ def signUp():
     finally:
         cursor.close()
         conn.close()
+# ==============================================================================
+# ==============================================================================
+# ==============================================================================
 
 
 # =====================================================
